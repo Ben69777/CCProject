@@ -92,21 +92,7 @@ $connect->close();
 		    <p><?php echo date('l') .' '.date('d').', '.date('Y'); ?></p>
 		  </div>
 		</div> 
-		<br/>
 
-		<div class="card">
-		  <div class="cardHeader" style="background-color:#245580;">
-		    <h1><?php if($totalRevenue) {
-		    	echo $totalRevenue;
-		    	} else {
-		    		echo '0';
-		    		} ?></h1>
-		  </div>
-
-		  <div class="cardContainer">
-		    <p> INR Total Revenue</p>
-		  </div>
-		</div> 
 
 	</div>
 	

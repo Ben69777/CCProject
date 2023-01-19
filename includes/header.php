@@ -45,18 +45,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!-- <a class="navbar-brand" href="#">Brand</a> -->
-	  <a class="navbar-brand" href="#" style="padding:0px;">
-                    <img src="logo.png" alt="">
-                </a>
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
 
       <ul class="nav navbar-nav navbar-right">        
-
-      	<li id="navDashboard"><a href="index.php"><i class="glyphicon glyphicon-list-alt"></i>  Dashboard</a></li>        
+      	<li id="navDashboard"><a href="index.php"><i class="glyphicon glyphicon-send"></i>  Dashboard</a></li>        
+        <li id="navDashboard"><a href="go.php"><i class="glyphicon glyphicon-list-alt"></i>  eCommerce</a></li>        
         <?php if(isset($_SESSION['userId']) && $_SESSION['userId']==1) { ?>
         <li id="navBrand"><a href="brand.php"><i class="glyphicon glyphicon-btc"></i>  Brand</a></li>        
 		<?php } ?>
